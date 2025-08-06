@@ -44,10 +44,10 @@ pip install -r requirements.txt
 ```
 3. Rode os notebooks com Jupyter ou Collab.
 ---
-##🤝 Contribuições
+🤝 Contribuições
 Quer contribuir? Veja as diretrizes no arquivo CONTRIBUTING.md
 ---
-#🧑‍💻 Autor: João Guilherme
+🧑‍💻 Autor: João Guilherme
 ---
 Estudante de Engenharia de Computação – UFC Sobral
 ---
