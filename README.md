@@ -1,5 +1,36 @@
-predict-inadimplencia-ml/
-│
+# 📊 Predição de Inadimplência com Machine Learning
+
+Este projeto tem como objetivo aplicar técnicas de **Ciência de Dados** e **Aprendizado de Máquina** para prever inadimplência de clientes com base em dados históricos, utilizando o dataset "Give Me Some Credit", da plataforma Kaggle.
+
+---
+
+## 📌 Objetivos
+- Realizar análise exploratória dos dados (EDA)
+- Pré-processar e tratar dados faltantes
+- Construir modelos de classificação binária para prever inadimplência
+- Avaliar o desempenho com métricas apropriadas (accuracy, F1-score, ROC-AUC)
+- Interpretar os resultados e extrair insights úteis
+
+---
+
+## 🗂 Dataset
+O dataset utilizado está disponível em:  
+🔗 [Give Me Some Credit - Kaggle](https://www.kaggle.com/c/GiveMeSomeCredit/data)
+
+> ⚠️ Obs.: Por questões de tamanho e política da competição, os dados não estão incluídos neste repositório. Coloque os arquivos `.csv` na pasta `data/`.
+
+---
+
+## 🧰 Tecnologias utilizadas
+- Python 3.10+
+- Pandas, NumPy
+- Matplotlib, Seaborn
+- Scikit-learn
+- Jupyter Notebook
+
+---
+
+## 📁 Estrutura do Projeto
 ├── data/ # Arquivos de dados (não versionados)
 ├── notebooks/ # Notebooks com EDA e modelagem
 │ ├── 01_eda.ipynb
@@ -12,6 +43,7 @@ predict-inadimplencia-ml/
 ├── README.md
 └── CONTRIBUTING.md
 
+
 ---
 
 ## 🚀 Como executar
@@ -19,13 +51,14 @@ predict-inadimplencia-ml/
 1. Clone este repositório:
 ```bash
 git clone https://github.com/seu-usuario/predict-inadimplencia-ml.git
-Instale as dependências:
 
-bash
-Copiar
-Editar
+```
+2. Instale as dependências:
+```bash
 pip install -r requirements.txt
-Rode os notebooks com Jupyter ou Colab.
+
+```
+3. Rode os notebooks com Jupyter ou Collab.
 
 🤝 Contribuições
 Quer contribuir? Veja as diretrizes no arquivo CONTRIBUTING.md
@@ -33,65 +66,7 @@ Quer contribuir? Veja as diretrizes no arquivo CONTRIBUTING.md
 🧑‍💻 Autor
 João Guilherme
 Estudante de Engenharia de Computação – UFC Sobral
-GitHub: @seu-usuario
+GitHub: @Jg-365
 
 📄 Licença
 Este projeto está licenciado sob os termos da MIT License.
-
-yaml
-Copiar
-Editar
-
----
-
-## 📄 `CONTRIBUTING.md`
-
-```markdown
-# 🤝 Guia de Contribuição
-
-Obrigado pelo seu interesse em contribuir com este projeto! Sinta-se à vontade para colaborar, enviar sugestões ou reportar bugs.
-
----
-
-## 💡 Como contribuir
-
-1. Faça um fork deste repositório
-2. Crie uma branch com a sua feature:
-```bash
-git checkout -b minha-contrib
-Faça suas alterações e commit:
-
-bash
-Copiar
-Editar
-git commit -m "Adiciona nova feature X"
-Envie para seu fork:
-
-bash
-Copiar
-Editar
-git push origin minha-contrib
-Crie um Pull Request para o branch main neste repositório
-
-🧼 Boas práticas
-Faça commits claros e frequentes
-
-Documente o que você fez (README, notebooks, comentários)
-
-Use ambientes virtuais
-
-Mantenha notebooks limpos (sem outputs grandes)
-
-Nunca envie dados pessoais ou sensíveis
-
-📂 Estrutura sugerida
-data/: mantenha os dados originais fora do versionamento (.gitignore)
-
-notebooks/: adicione novos notebooks se necessário, com numeração
-
-src/: scripts reutilizáveis devem estar aqui
-
-📫 Contato
-Se tiver dúvidas, abra uma issue ou entre em contato por e-mail
-
-Vamos construir juntos! 🚀
