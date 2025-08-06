@@ -25,7 +25,7 @@ git push origin minha-contribuição
 ```
 5. Crie um Pull Request para o branch main neste repositório.
 
-##🧼 Boas práticas
+🧼 Boas práticas
 - Faça commits claros e frequentes
 
 - Documente o que você fez (README, notebooks, comentários)
@@ -36,14 +36,14 @@ git push origin minha-contribuição
 
 - Nunca envie dados pessoais ou sensíveis
 
-##📂 Estrutura sugerida
+📂 Estrutura sugerida
 - data/: mantenha os dados originais fora do versionamento (.gitignore)
 
 - notebooks/: adicione novos notebooks se necessário, com numeração
 
 - src/: scripts reutilizáveis devem estar aqui
 
-##📫 Contato
+📫 Contato
 Se tiver dúvidas, abra uma issue ou entre em contato por e-mail
 
 Vamos construir juntos! 🚀
