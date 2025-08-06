@@ -47,8 +47,10 @@ pip install -r requirements.txt
 ##🤝 Contribuições
 Quer contribuir? Veja as diretrizes no arquivo CONTRIBUTING.md
 ---
-🧑‍💻 Autor: João Guilherme
+#🧑‍💻 Autor: João Guilherme
+---
 Estudante de Engenharia de Computação – UFC Sobral
+---
 GitHub: @Jg-365
 ---
 📄 Licença
