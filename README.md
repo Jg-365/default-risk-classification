@@ -31,17 +31,19 @@ O dataset utilizado está disponível em:
 ---
 
 ## 📁 Estrutura do Projeto
-├── data/ # Arquivos de dados (não versionados)
-├── notebooks/ # Notebooks com EDA e modelagem
-│ ├── 01_eda.ipynb
-│ └── 02_modelagem.ipynb
-├── src/ # Scripts reutilizáveis
-│ ├── preprocessing.py
-│ └── model_utils.py
+predict-inadimplencia-ml/
+├── data/                  # Arquivos de dados (não versionados)
+├── notebooks/             # Notebooks com EDA e modelagem
+│   ├── 01_eda.ipynb
+│   └── 02_modelagem.ipynb
+├── src/                   # Scripts reutilizáveis
+│   ├── preprocessing.py
+│   └── model_utils.py
 ├── .gitignore
 ├── LICENSE
 ├── README.md
 └── CONTRIBUTING.md
+
 
 
 ---
